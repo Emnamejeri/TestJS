@@ -24,3 +24,5 @@ const fiveMostExpensive = cart
   .filter((product) => product.price > 100) // we then feed the result to the next method
   .sort((a, b) => b.price - a.price) // sort by price, descending (from the most expensive to the least expensive)
   .slice(0, 5); // first 5
+
+  
